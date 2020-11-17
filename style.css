@@ -1,0 +1,67 @@
+body {
+    min-height: 100%;
+    overflow: auto;
+    margin: 0;
+    background-color: #212121;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.volumeButton {
+    font-size: 30px;
+    padding-left: 10px;
+    color: white;
+}
+#bgndVideo {
+    height: 140%;
+    margin-top: -30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}  
+
+#socials {
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+.favicon {
+    color: white;
+    margin-right: 5px;
+}
+.favicon:hover {
+    transition: ease-out;
+    transform: scale(1.2);
+}
+h1 {
+    color: white;
+    font-size: 160px;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 1);
+}
+#video{
+    position: relative;
+    background: transparent;
+   }
+.ytplayer-container {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
